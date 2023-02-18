@@ -1,10 +1,6 @@
 body {
-    background-image: url(https://onfairy.files.wordpress.com/2022/01/forged_1920x1080_br_pt1-1.jpg);
     padding: 0;
     margin: 0;
-    background-position: 15rem;
-    background-repeat: no-repeat;
-    background-size: 110rem;
 }
 .formulario {
     min-height: 100vh;
@@ -16,7 +12,6 @@ body {
     padding-bottom: 0;
     padding-top: 0;
 }
-
 
 p {
     font-size: 0.9rem;
@@ -32,7 +27,6 @@ img {
     width: 70%;
     height: 50%;
     margin-bottom: 4rem;
-    
 }
 
 form {
@@ -44,6 +38,7 @@ form {
     max-width: 28rem;
     background: #fff;
     padding: 4rem;
+    border-radius: 0.5rem;
     box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
 }
 
@@ -110,7 +105,7 @@ a {
 }
 
 .divider {
-    width: 100rem;
+    width: 20rem;
     height: 9px;
     border-bottom: 1px solid #ccc;
     text-align: center;
@@ -124,3 +119,9 @@ a {
     padding: 0 10px;
 }
 
+@media (max-width: 1300px) {
+    form {
+        width: auto;
+        min-height: 86vh;
+    }
+}
